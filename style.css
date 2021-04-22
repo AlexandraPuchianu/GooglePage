@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+div{
+    display: block;
+}
+
+.header{
+    padding: 0.5rem;
+    height: 2rem;
+    width: auto;
+    position: relative;
+    float: right;
+}
+
+.header a{
+    text-decoration: none;
+    margin-left: 0.8rem;
+    font-family: arial,sans-serif;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+}
