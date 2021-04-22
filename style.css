@@ -45,4 +45,13 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 4px;
+  }  }
+
+  .logo{
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7rem;
   }
