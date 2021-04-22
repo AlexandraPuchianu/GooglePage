@@ -45,7 +45,7 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 4px;
-  }  }
+  }
 
   .logo{
     justify-content: center;
@@ -55,3 +55,41 @@ body {
     margin: 0 auto;
     margin-top: 7rem;
   }
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    place-content: center;
+    margin-top: 1rem;
+}
+
+.searchTerm {
+    width: 30rem;
+    border: 1px solid #D3D3D3;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    border-radius: 22px 0 0 22px;
+    outline: none;
+    color: #9DBFAF;
+    border-right: none;
+    color: black;
+}
+
+.searchButton {
+    width: 48px;
+    height: 47px;
+    border: 1px solid #D3D3D3;
+    background: white;
+    text-align: center;
+    color: #1a73e8;
+    border-radius: 0 22px 22px 0;
+    cursor: pointer;
+    font-size: 20px;
+    border-left: none;
+}
+
+.searchButton:focus{
+    outline: none;
+}
+  
