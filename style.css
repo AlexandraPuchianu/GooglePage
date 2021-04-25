@@ -148,11 +148,43 @@ body {
 .country{
     height: 3rem;
     width: 97.8vw;
-    margin-top: 13rem;
+    margin-top: 12.6rem;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     padding: 0.2rem 0rem 0 2rem;
     font-family: arial,sans-serif;
     color: #6f6f6f;
     background-color: #f2f2f2;
+}
+
+.left-container{
+    width: fit-content;
+    display: inline;
+    float:left
+}
+
+.others{
+    height: 2rem;
+    width: 98.8vw;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    padding: 1rem 0rem 0 1rem;
+    font-family: arial,sans-serif;
+    color: #6f6f6f;
+    background-color: #f2f2f2;
+}
+
+.others a{
+    padding:15px;
+    color:#6f6f6f !important;
+    text-decoration: none !important;
+}
+
+.others a:hover{
+    text-decoration: underline;
+}
+
+.right-container{
+    float:right;
+    width: fit-content;
 }
