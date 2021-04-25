@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    margin:0px;
 }
 
 .header{
@@ -10,8 +11,8 @@ body {
     display: inline-flex;
     align-items: baseline;
     justify-content: flex-end;
-    padding: 0.3rem;
-    padding-right: 0.5rem;
+    padding: 1rem;
+    padding-right: 1rem;
 }
 
 .header a{
@@ -54,7 +55,7 @@ body {
     width: 100%;
     height: 5.7rem;
     margin: 0 auto;
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
 .search {
     width: 100%;
@@ -142,4 +143,16 @@ body {
 .otherLanguage a{
     text-decoration: none;
     margin-left: 0.4rem;
+}
+
+.country{
+    height: 3rem;
+    width: 97.8vw;
+    margin-top: 13rem;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    padding: 0.2rem 0rem 0 2rem;
+    font-family: arial,sans-serif;
+    color: #6f6f6f;
+    background-color: #f2f2f2;
 }
